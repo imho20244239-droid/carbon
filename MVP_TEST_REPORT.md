@@ -53,7 +53,7 @@
 
 ## 4. 静态检查
 
-- `app.py`、`core/*.py`、`pages/*.py`、两套测试脚本均通过 `py_compile`；
+- `app.py`、`core/*.py`、`views/*.py`、两套测试脚本均通过 `py_compile`；
 - 核心MILP回归通过；
 - 验证证据完整性检查通过；
 - 新增权重扫描和压力预设均已直接调用后端求解完成数值检查。

@@ -38,7 +38,7 @@ body {color: var(--ink); background: var(--canvas);}
 
 [data-testid="stAppViewContainer"] {background: var(--canvas);}
 [data-testid="stHeader"] {background: rgba(244, 247, 243, .94); border-bottom: 1px solid rgba(199, 213, 207, .7);}
-.block-container {padding-top: 2rem; padding-bottom: 4rem; max-width: 1420px;}
+.block-container {padding-top: 4.8rem; padding-bottom: 4rem; max-width: 1420px;}
 #MainMenu, footer {visibility: hidden;}
 h1, h2, h3 {color: var(--ink); letter-spacing: -.025em;}
 p, li {color: var(--ink-soft);}
@@ -127,7 +127,7 @@ hr {border-color: var(--line) !important; margin: 1.2rem 0 !important;}
   .block-container {padding-left: 1.4rem; padding-right: 1.4rem;}
 }
 @media (max-width: 640px) {
-  .block-container {padding: 2.75rem 1rem 3rem;}
+  .block-container {padding: 4.5rem 1rem 3rem;}
   .hero-title {font-size: 1.8rem;}
   .hero-sub {font-size: .9rem; line-height: 1.62;}
   .signal-strip {grid-template-columns: 1fr; gap: .55rem;}

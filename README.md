@@ -71,7 +71,7 @@ carbon_dispatch_mvp/
 ├── .streamlit/config.toml
 ├── app.py
 ├── core/
-├── pages/
+├── views/
 ├── data/
 ├── legacy/
 ├── smoke_test.py
@@ -83,3 +83,9 @@ carbon_dispatch_mvp/
 ├── requirements.txt
 └── run_windows.bat
 ```
+
+## 导航架构说明
+
+本工程采用 **单入口 `app.py` + `views/` 展示模块 + 自定义中文侧边栏路由**。请勿把 `views/` 重命名为 `pages/`：`pages/` 是 Streamlit 的保留多页面目录，会被框架自动发现，从而生成额外的 `app / comparison / dispatch ...` 原生导航，与本工程的自定义路由冲突。
+
+可运行 `python navigation_structure_test.py` 做结构自检。

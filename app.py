@@ -1,6 +1,6 @@
 import streamlit as st
 from core.ui import CSS
-from pages import overview, dispatch, hourly_view, comparison, stress_test, validation, data_notes
+from views import overview, dispatch, hourly_view, comparison, stress_test, validation, data_notes
 
 st.set_page_config(
     page_title="碳算智调｜电—碳—算协同调度决策系统",

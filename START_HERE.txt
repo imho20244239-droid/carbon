@@ -38,3 +38,9 @@ python validation_evidence_test.py
 
 详细现场话术与页面顺序：见 DEMO_GUIDE.md
 证据来源对应：见 EVIDENCE_MAP.md
+
+七、导航结构说明（重要）
+- 本工程只有一个 Streamlit 入口：app.py。
+- 页面展示模块位于 views/，不要改回 pages/。
+- pages/ 是 Streamlit 的保留目录；若存在，会被自动识别为原生多页面，从而出现 app / comparison / dispatch 等英文导航并与本工程自定义导航冲突。
+- 赛前可执行：python navigation_structure_test.py
